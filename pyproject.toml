@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "buildbot-gitee-plugin"
+version = "0.1.0"
+description = ""
+authors = ["HouXiyao <hxysomanly@163.com"]
+readme = "README.md"
+packages = [{include = "buildbot_gitee"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+buildbot = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
